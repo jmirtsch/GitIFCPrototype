@@ -1,0 +1,36 @@
+{
+  "type": "IfcRelAggregates",
+  "GlobalId": "0QJWCiCiv3XhICqlJ_tbY0",
+  "OwnerHistory": {
+    "href": "0tjR9LBwX2Mg5P5iu8rUyS"
+  },
+  "RelatedObjects": [
+    {
+      "type": "IfcBuilding",
+      "GlobalId": "045leWpMj4oQIEZ829grme",
+      "OwnerHistory": {
+        "href": "0tjR9LBwX2Mg5P5iu8rUyS"
+      },
+      "Name": "TestGIT",
+      "Placement": {
+        "type": "IfcLocalPlacement",
+        "id": "0cnprCbVDAOfqE9cFgwYas",
+        "PlacementRelTo": {
+          "href": "2ViTRMVirCWw1nZor3fuFr"
+        },
+        "RelativePlacement": {
+          "type": "IfcAxis2Placement3D",
+          "Location": {
+            "type": "IfcCartesianPoint",
+            "Coordinates": "0 0 0"
+          }
+        }
+      },
+      "LongName": "TestGIT",
+      "CompositionType": "ELEMENT",
+      "BuildingAddress": {
+        "type": "IfcPostalAddress"
+      }
+    }
+  ]
+}

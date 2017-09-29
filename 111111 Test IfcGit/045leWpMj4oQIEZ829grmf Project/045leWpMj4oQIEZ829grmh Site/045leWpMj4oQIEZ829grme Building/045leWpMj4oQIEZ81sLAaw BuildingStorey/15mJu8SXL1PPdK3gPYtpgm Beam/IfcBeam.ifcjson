@@ -1,0 +1,41 @@
+{
+  "type": "IfcRelContainedInSpatialStructure",
+  "GlobalId": "1qv6ynVKX7xf87anO8vN2n",
+  "OwnerHistory": {
+    "href": "0tjR9LBwX2Mg5P5iu8rUyS"
+  },
+  "RelatedElements": [
+    {
+      "type": "IfcBeam",
+      "GlobalId": "15mJu8SXL1PPdK3gPYtpgm",
+      "OwnerHistory": {
+        "href": "0tjR9LBwX2Mg5P5iu8rUyS"
+      },
+      "Name": "UB-Universal Beams (AS 3679_1):310UB32.0:360762",
+      "HasAssociations": [
+        {
+          "href": "2jSQdk3OL2aB2toDiohMrA"
+        }
+      ],
+      "ObjectType": "UB-Universal Beams (AS 3679_1):310UB32.0:91143",
+      "IsTypedBy": {
+        "href": "2ssOUhCq18$u1XE3FuG9tq"
+      },
+      "Placement": {
+        "type": "IfcLocalPlacement",
+        "id": "312kwZXYD9DOSUtLQEK1aX",
+        "PlacementRelTo": {
+          "href": "2g_mnixwH3VOtTg0tRhB2$"
+        },
+        "RelativePlacement": {
+          "type": "IfcAxis2Placement3D",
+          "Location": {
+            "type": "IfcCartesianPoint",
+            "Coordinates": "-7480.48612184383 423.31179831953 0"
+          }
+        }
+      },
+      "Tag": "360762"
+    }
+  ]
+}

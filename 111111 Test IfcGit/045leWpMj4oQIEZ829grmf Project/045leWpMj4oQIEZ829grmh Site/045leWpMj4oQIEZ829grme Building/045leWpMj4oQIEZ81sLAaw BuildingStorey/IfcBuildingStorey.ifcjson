@@ -1,0 +1,34 @@
+{
+  "type": "IfcRelAggregates",
+  "GlobalId": "3mQBaTfuH9QBHDcYQBQvNl",
+  "OwnerHistory": {
+    "href": "0tjR9LBwX2Mg5P5iu8rUyS"
+  },
+  "RelatedObjects": [
+    {
+      "type": "IfcBuildingStorey",
+      "GlobalId": "045leWpMj4oQIEZ81sLAaw",
+      "OwnerHistory": {
+        "href": "0tjR9LBwX2Mg5P5iu8rUyS"
+      },
+      "Name": "Level 2",
+      "Placement": {
+        "type": "IfcLocalPlacement",
+        "id": "2g_mnixwH3VOtTg0tRhB2$",
+        "PlacementRelTo": {
+          "href": "0cnprCbVDAOfqE9cFgwYas"
+        },
+        "RelativePlacement": {
+          "type": "IfcAxis2Placement3D",
+          "Location": {
+            "type": "IfcCartesianPoint",
+            "Coordinates": "0 0 3000"
+          }
+        }
+      },
+      "LongName": "Level 2",
+      "CompositionType": "ELEMENT",
+      "Elevation": "3000"
+    }
+  ]
+}

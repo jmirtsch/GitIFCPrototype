@@ -1,0 +1,26 @@
+[
+  {
+    "type": "IfcRelDefinesByProperties",
+    "GlobalId": "3xPyG_tqz2F9YuJkI5M7ZW",
+    "OwnerHistory": {
+      "href": "0tjR9LBwX2Mg5P5iu8rUyS"
+    },
+    "RelatingPropertyDefinition": {
+      "type": "IfcPropertySet",
+      "GlobalId": "1qv6ynVKX7xf87cFi8vNi1",
+      "OwnerHistory": {
+        "href": "0tjR9LBwX2Mg5P5iu8rUyS"
+      },
+      "Name": "Pset_BuildingStoreyCommon",
+      "HasProperties": [
+        {
+          "type": "IfcPropertySingleValue",
+          "Name": "AboveGround",
+          "NominalValue": {
+            "IfcLogical": "UNKNOWN"
+          }
+        }
+      ]
+    }
+  }
+]
