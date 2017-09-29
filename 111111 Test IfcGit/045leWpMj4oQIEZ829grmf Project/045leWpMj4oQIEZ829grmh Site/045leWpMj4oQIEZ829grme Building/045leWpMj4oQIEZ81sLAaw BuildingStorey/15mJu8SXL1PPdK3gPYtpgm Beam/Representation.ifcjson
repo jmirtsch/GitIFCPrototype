@@ -18,7 +18,7 @@
             },
             {
               "type": "IfcCartesianPoint",
-              "Coordinates": "8000 0"
+              "Coordinates": "7800 0"
             }
           ]
         }
@@ -74,18 +74,18 @@
               "type": "IfcAxis2Placement2D",
               "Location": {
                 "type": "IfcCartesianPoint",
-                "Coordinates": "1.36424205265939E-12 9.9475983006414E-14"
+                "Coordinates": "6.11066752753686E-13 2.70006239588838E-13"
               },
               "RefDirection": {
                 "type": "IfcDirection",
                 "DirectionRatios": "0 1"
               }
             },
-            "OverallWidth": 149.000000000026,
+            "OverallWidth": 149.000000000024,
             "OverallDepth": 298.0,
-            "WebThickness": 5.49999999917279,
+            "WebThickness": 5.49999999925536,
             "FlangeThickness": 8.00000000000089,
-            "FilletRadius": 12.9999999999994
+            "FilletRadius": 12.9999999999992
           },
           "Position": {
             "type": "IfcAxis2Placement3D",
@@ -106,7 +106,7 @@
             "type": "IfcDirection",
             "DirectionRatios": "0 0 1"
           },
-          "Depth": 8000.0
+          "Depth": 7800.0
         }
       ],
       "LayerAssignments": [
