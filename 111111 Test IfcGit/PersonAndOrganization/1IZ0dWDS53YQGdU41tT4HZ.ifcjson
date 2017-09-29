@@ -1,0 +1,10 @@
+{
+  "type": "IfcPersonAndOrganization",
+  "id": "1IZ0dWDS53YQGdU41tT4HZ",
+  "ThePerson": {
+    "href": "1j7nJNcO1A599aCdBgQ3Zr"
+  },
+  "TheOrganization": {
+    "href": "2xRd1e3_n1qBkfqllJChT9"
+  }
+}
