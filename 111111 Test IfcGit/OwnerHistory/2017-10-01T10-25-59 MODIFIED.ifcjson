@@ -1,0 +1,13 @@
+{
+  "type": "IfcOwnerHistory",
+  "id": "1TZgxEXTn6Jh6yghe4qr4O",
+  "OwningUser": {
+    "href": "1Ry8Ua6rb1LAHVwnDuuqWX"
+  },
+  "OwningApplication": {
+    "href": "0rDOKricfCVxHlGvuc5jbX"
+  },
+  "ChangeAction": "MODIFIED",
+  "LastModifiedDate": 1506853559,
+  "CreationDate": 1506853559
+}

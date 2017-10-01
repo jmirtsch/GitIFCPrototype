@@ -2,7 +2,7 @@
   "type": "IfcBeam",
   "GlobalId": "15mJu8SXL1PPdK3gPYtpgm",
   "OwnerHistory": {
-    "href": "1hFTfpXTj8mwsFFnm_D8xA"
+    "href": "1TZgxEXTn6Jh6yghe4qr4O"
   },
   "Name": "UB-Universal Beams (AS 3679_1):310UB32.0:360762",
   "HasAssociations": [
@@ -16,7 +16,7 @@
   },
   "Placement": {
     "type": "IfcLocalPlacement",
-    "id": "2VA$RqdJ9Cvu6luVLG9KIR",
+    "id": "2JrrgjaWX8XAS2i6en$00z",
     "PlacementRelTo": {
       "href": "2RIETOJXL11x0iE4H0o3R_"
     },
@@ -25,6 +25,14 @@
       "Location": {
         "type": "IfcCartesianPoint",
         "Coordinates": "-7480.48612184383 423.31179831953 0"
+      },
+      "Axis": {
+        "type": "IfcDirection",
+        "DirectionRatios": "0 0 1"
+      },
+      "RefDirection": {
+        "type": "IfcDirection",
+        "DirectionRatios": "0.984807753012208 0.17364817766693 0"
       }
     }
   },
