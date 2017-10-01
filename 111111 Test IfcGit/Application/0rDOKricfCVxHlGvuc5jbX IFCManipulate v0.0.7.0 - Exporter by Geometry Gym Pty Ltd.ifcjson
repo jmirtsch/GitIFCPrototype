@@ -1,0 +1,10 @@
+{
+  "type": "IfcApplication",
+  "id": "0rDOKricfCVxHlGvuc5jbX",
+  "ApplicationDeveloper": {
+    "href": "0jxQAC7BnAdALq6BWPlrvp"
+  },
+  "Version": "0.0.7.0",
+  "ApplicationFullName": "IFCManipulate v0.0.7.0 - Exporter by Geometry Gym Pty Ltd",
+  "ApplicationIdentifier": "IFCManipulate v0.0.7.0 - Exporter by Geometry Gym Pty Ltd"
+}

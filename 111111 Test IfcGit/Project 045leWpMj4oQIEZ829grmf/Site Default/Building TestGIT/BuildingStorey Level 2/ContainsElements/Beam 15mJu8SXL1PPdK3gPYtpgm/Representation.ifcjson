@@ -81,11 +81,11 @@
                 "DirectionRatios": "0 1"
               }
             },
-            "OverallWidth": 149.000000000026,
+            "OverallWidth": 149.0,
             "OverallDepth": 298.0,
-            "WebThickness": 5.49999999917279,
-            "FlangeThickness": 8.00000000000089,
-            "FilletRadius": 12.9999999999994
+            "WebThickness": 5.5,
+            "FlangeThickness": 8.0,
+            "FilletRadius": 13.0
           },
           "Position": {
             "type": "IfcAxis2Placement3D",

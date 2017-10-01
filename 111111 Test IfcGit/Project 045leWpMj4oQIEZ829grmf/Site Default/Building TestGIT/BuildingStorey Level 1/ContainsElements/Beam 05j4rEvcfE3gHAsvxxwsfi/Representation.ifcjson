@@ -18,7 +18,7 @@
             },
             {
               "type": "IfcCartesianPoint",
-              "Coordinates": "7100 0"
+              "Coordinates": "7000 0"
             }
           ]
         }
@@ -106,7 +106,7 @@
             "type": "IfcDirection",
             "DirectionRatios": "0 0 1"
           },
-          "Depth": 7100.0
+          "Depth": 7000.0
         }
       ],
       "LayerAssignments": [
