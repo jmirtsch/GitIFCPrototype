@@ -1,0 +1,11 @@
+{
+  "type": "IfcRelAssociatesMaterial",
+  "GlobalId": "2jSQdk3OL2aB2toDiohMrA",
+  "OwnerHistory": {
+    "href": "1hFTfpXTj8mwsFFnm_D8xA"
+  },
+  "RelatingMaterial": {
+    "type": "IfcMaterial",
+    "Name": "Metal - Steel - 300 MPa"
+  }
+}

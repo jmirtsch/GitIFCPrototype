@@ -1,0 +1,26 @@
+[
+  {
+    "type": "IfcRelDefinesByProperties",
+    "GlobalId": "1HmDD7QSLAOBMJMcSDEEZH",
+    "OwnerHistory": {
+      "href": "1hFTfpXTj8mwsFFnm_D8xA"
+    },
+    "RelatingPropertyDefinition": {
+      "type": "IfcPropertySet",
+      "GlobalId": "3mQBaTfuH9QBHDaSwBQvNl",
+      "OwnerHistory": {
+        "href": "1hFTfpXTj8mwsFFnm_D8xA"
+      },
+      "Name": "Pset_BuildingCommon",
+      "HasProperties": [
+        {
+          "type": "IfcPropertySingleValue",
+          "Name": "NumberOfStoreys",
+          "NominalValue": {
+            "IfcInteger": "2"
+          }
+        }
+      ]
+    }
+  }
+]

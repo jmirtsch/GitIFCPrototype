@@ -1,0 +1,27 @@
+{
+  "type": "IfcBuilding",
+  "GlobalId": "045leWpMj4oQIEZ829grme",
+  "OwnerHistory": {
+    "href": "1hFTfpXTj8mwsFFnm_D8xA"
+  },
+  "Name": "TestGIT",
+  "Placement": {
+    "type": "IfcLocalPlacement",
+    "id": "2sAEe5W9X8pR3oxEUbKkhd",
+    "PlacementRelTo": {
+      "href": "3ur4DqY7DA68Pjwn4Jw$YE"
+    },
+    "RelativePlacement": {
+      "type": "IfcAxis2Placement3D",
+      "Location": {
+        "type": "IfcCartesianPoint",
+        "Coordinates": "0 0 0"
+      }
+    }
+  },
+  "LongName": "TestGIT",
+  "CompositionType": "ELEMENT",
+  "BuildingAddress": {
+    "type": "IfcPostalAddress"
+  }
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "type": "IfcRelDefinesByProperties",
+    "GlobalId": "116Fy2nEzD5gFWTjXJm3GR",
+    "OwnerHistory": {
+      "href": "1hFTfpXTj8mwsFFnm_D8xA"
+    },
+    "RelatingPropertyDefinition": {
+      "type": "IfcPropertySet",
+      "GlobalId": "0GDokRCPb3nPU25bT5we1H",
+      "OwnerHistory": {
+        "href": "1hFTfpXTj8mwsFFnm_D8xA"
+      },
+      "Name": "Pset_BeamCommon",
+      "HasProperties": [
+        {
+          "type": "IfcPropertySingleValue",
+          "Name": "Reference",
+          "NominalValue": {
+            "IfcIdentifier": "310UB32.0"
+          }
+        },
+        {
+          "type": "IfcPropertySingleValue",
+          "Name": "LoadBearing",
+          "NominalValue": {
+            "IfcBoolean": "True"
+          }
+        },
+        {
+          "type": "IfcPropertySingleValue",
+          "Name": "IsExternal",
+          "NominalValue": {
+            "IfcBoolean": "False"
+          }
+        },
+        {
+          "type": "IfcPropertySingleValue",
+          "Name": "Slope",
+          "NominalValue": {
+            "IfcPlaneAngleMeasure": "0"
+          }
+        },
+        {
+          "type": "IfcPropertySingleValue",
+          "Name": "FireRating",
+          "NominalValue": {
+            "IfcLabel": "2 hours"
+          }
+        }
+      ]
+    }
+  }
+]

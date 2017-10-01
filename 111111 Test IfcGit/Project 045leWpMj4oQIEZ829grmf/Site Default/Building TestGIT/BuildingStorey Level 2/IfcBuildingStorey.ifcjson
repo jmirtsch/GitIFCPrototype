@@ -1,0 +1,25 @@
+{
+  "type": "IfcBuildingStorey",
+  "GlobalId": "045leWpMj4oQIEZ81sLAaw",
+  "OwnerHistory": {
+    "href": "1hFTfpXTj8mwsFFnm_D8xA"
+  },
+  "Name": "Level 2",
+  "Placement": {
+    "type": "IfcLocalPlacement",
+    "id": "2RIETOJXL11x0iE4H0o3R_",
+    "PlacementRelTo": {
+      "href": "2sAEe5W9X8pR3oxEUbKkhd"
+    },
+    "RelativePlacement": {
+      "type": "IfcAxis2Placement3D",
+      "Location": {
+        "type": "IfcCartesianPoint",
+        "Coordinates": "0 0 3000"
+      }
+    }
+  },
+  "LongName": "Level 2",
+  "CompositionType": "ELEMENT",
+  "Elevation": "3000"
+}

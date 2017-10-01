@@ -1,0 +1,347 @@
+{
+  "type": "IfcProject",
+  "GlobalId": "045leWpMj4oQIEZ829grmf",
+  "OwnerHistory": {
+    "href": "1hFTfpXTj8mwsFFnm_D8xA"
+  },
+  "Name": "111111",
+  "LongName": "Test IfcGit",
+  "Phase": "WIP",
+  "RepresentationContexts": [
+    {
+      "type": "IfcGeometricRepresentationContext",
+      "ContextType": "Model",
+      "CoordinateSpaceDimension": 3,
+      "Precision": 0.01,
+      "WorldCoordinateSystem": {
+        "type": "IfcAxis2Placement3D",
+        "Location": {
+          "type": "IfcCartesianPoint",
+          "Coordinates": "0 0 0"
+        }
+      },
+      "TrueNorth": {
+        "type": "IfcDirection",
+        "DirectionRatios": "6.12303176911189E-17 1"
+      },
+      "HasSubContexts": [
+        {
+          "type": "IfcGeometricRepresentationSubContext",
+          "id": "0e3ogAiQXCjRuXytmNqKLv",
+          "ContextIdentifier": "Axis",
+          "ContextType": "Model",
+          "TargetView": "GRAPH_VIEW"
+        },
+        {
+          "type": "IfcGeometricRepresentationSubContext",
+          "id": "2jilLrzOP2puB42fZsVQ9R",
+          "ContextIdentifier": "Body",
+          "ContextType": "Model",
+          "TargetView": "MODEL_VIEW"
+        },
+        {
+          "type": "IfcGeometricRepresentationSubContext",
+          "id": "3Iv213HG1CW8es3FqKuhFV",
+          "ContextIdentifier": "Box",
+          "ContextType": "Model",
+          "TargetView": "MODEL_VIEW"
+        },
+        {
+          "type": "IfcGeometricRepresentationSubContext",
+          "id": "1GbSITH3HE0Brhzlb5n2rO",
+          "ContextIdentifier": "FootPrint",
+          "ContextType": "Model",
+          "TargetView": "MODEL_VIEW"
+        }
+      ]
+    }
+  ],
+  "UnitsInContext": {
+    "type": "IfcUnitAssignment",
+    "Units": [
+      {
+        "type": "IfcSIUnit",
+        "UnitType": "LENGTHUNIT",
+        "Prefix": "MILLI",
+        "Name": "METRE"
+      },
+      {
+        "type": "IfcSIUnit",
+        "UnitType": "AREAUNIT",
+        "Name": "SQUARE_METRE"
+      },
+      {
+        "type": "IfcSIUnit",
+        "UnitType": "VOLUMEUNIT",
+        "Name": "CUBIC_METRE"
+      },
+      {
+        "type": "IfcConversionBasedUnit",
+        "Dimensions": {
+          "type": "IfcDimensionalExponents"
+        },
+        "UnitType": "PLANEANGLEUNIT",
+        "Name": "DEGREE",
+        "ConversionFactor": {
+          "type": "IfcMeasureWithUnit",
+          "ValueComponent": {
+            "IfcRatioMeasure": "0.0174532925199433"
+          },
+          "UnitComponent": {
+            "type": "IfcSIUnit",
+            "UnitType": "PLANEANGLEUNIT",
+            "Name": "RADIAN"
+          }
+        }
+      },
+      {
+        "type": "IfcSIUnit",
+        "UnitType": "MASSUNIT",
+        "Prefix": "KILO",
+        "Name": "GRAM"
+      },
+      {
+        "type": "IfcDerivedUnit",
+        "Elements": [
+          {
+            "type": "IfcDerivedUnitElement",
+            "Unit": {
+              "type": "IfcSIUnit",
+              "UnitType": "MASSUNIT",
+              "Prefix": "KILO",
+              "Name": "GRAM"
+            },
+            "Exponent": 1
+          },
+          {
+            "type": "IfcDerivedUnitElement",
+            "Unit": {
+              "type": "IfcSIUnit",
+              "UnitType": "LENGTHUNIT",
+              "Name": "METRE"
+            },
+            "Exponent": -3
+          }
+        ],
+        "UnitType": "MASSDENSITYUNIT"
+      },
+      {
+        "type": "IfcSIUnit",
+        "UnitType": "TIMEUNIT",
+        "Name": "SECOND"
+      },
+      {
+        "type": "IfcSIUnit",
+        "UnitType": "FREQUENCYUNIT",
+        "Name": "HERTZ"
+      },
+      {
+        "type": "IfcSIUnit",
+        "UnitType": "THERMODYNAMICTEMPERATUREUNIT",
+        "Name": "DEGREE_CELSIUS"
+      },
+      {
+        "type": "IfcDerivedUnit",
+        "Elements": [
+          {
+            "type": "IfcDerivedUnitElement",
+            "Unit": {
+              "type": "IfcSIUnit",
+              "UnitType": "MASSUNIT",
+              "Prefix": "KILO",
+              "Name": "GRAM"
+            },
+            "Exponent": 1
+          },
+          {
+            "type": "IfcDerivedUnitElement",
+            "Unit": {
+              "type": "IfcSIUnit",
+              "UnitType": "THERMODYNAMICTEMPERATUREUNIT",
+              "Name": "KELVIN"
+            },
+            "Exponent": -1
+          },
+          {
+            "type": "IfcDerivedUnitElement",
+            "Unit": {
+              "type": "IfcSIUnit",
+              "UnitType": "TIMEUNIT",
+              "Name": "SECOND"
+            },
+            "Exponent": -3
+          }
+        ],
+        "UnitType": "THERMALTRANSMITTANCEUNIT"
+      },
+      {
+        "type": "IfcDerivedUnit",
+        "Elements": [
+          {
+            "type": "IfcDerivedUnitElement",
+            "Unit": {
+              "type": "IfcSIUnit",
+              "UnitType": "LENGTHUNIT",
+              "Name": "METRE"
+            },
+            "Exponent": 3
+          },
+          {
+            "type": "IfcDerivedUnitElement",
+            "Unit": {
+              "type": "IfcSIUnit",
+              "UnitType": "TIMEUNIT",
+              "Name": "SECOND"
+            },
+            "Exponent": -1
+          }
+        ],
+        "UnitType": "VOLUMETRICFLOWRATEUNIT"
+      },
+      {
+        "type": "IfcSIUnit",
+        "UnitType": "ELECTRICCURRENTUNIT",
+        "Name": "AMPERE"
+      },
+      {
+        "type": "IfcSIUnit",
+        "UnitType": "ELECTRICVOLTAGEUNIT",
+        "Name": "VOLT"
+      },
+      {
+        "type": "IfcSIUnit",
+        "UnitType": "POWERUNIT",
+        "Name": "WATT"
+      },
+      {
+        "type": "IfcSIUnit",
+        "UnitType": "FORCEUNIT",
+        "Prefix": "KILO",
+        "Name": "NEWTON"
+      },
+      {
+        "type": "IfcSIUnit",
+        "UnitType": "ILLUMINANCEUNIT",
+        "Name": "LUX"
+      },
+      {
+        "type": "IfcSIUnit",
+        "UnitType": "LUMINOUSFLUXUNIT",
+        "Name": "LUMEN"
+      },
+      {
+        "type": "IfcSIUnit",
+        "UnitType": "LUMINOUSINTENSITYUNIT",
+        "Name": "CANDELA"
+      },
+      {
+        "type": "IfcDerivedUnit",
+        "Elements": [
+          {
+            "type": "IfcDerivedUnitElement",
+            "Unit": {
+              "type": "IfcSIUnit",
+              "UnitType": "MASSUNIT",
+              "Prefix": "KILO",
+              "Name": "GRAM"
+            },
+            "Exponent": -1
+          },
+          {
+            "type": "IfcDerivedUnitElement",
+            "Unit": {
+              "type": "IfcSIUnit",
+              "UnitType": "LENGTHUNIT",
+              "Name": "METRE"
+            },
+            "Exponent": -2
+          },
+          {
+            "type": "IfcDerivedUnitElement",
+            "Unit": {
+              "type": "IfcSIUnit",
+              "UnitType": "TIMEUNIT",
+              "Name": "SECOND"
+            },
+            "Exponent": 3
+          },
+          {
+            "type": "IfcDerivedUnitElement",
+            "Unit": {
+              "type": "IfcSIUnit",
+              "UnitType": "LUMINOUSFLUXUNIT",
+              "Name": "LUMEN"
+            },
+            "Exponent": 1
+          }
+        ],
+        "UnitType": "USERDEFINED",
+        "UserDefinedType": "Luminous Efficacy"
+      },
+      {
+        "type": "IfcDerivedUnit",
+        "Elements": [
+          {
+            "type": "IfcDerivedUnitElement",
+            "Unit": {
+              "type": "IfcSIUnit",
+              "UnitType": "LENGTHUNIT",
+              "Name": "METRE"
+            },
+            "Exponent": 1
+          },
+          {
+            "type": "IfcDerivedUnitElement",
+            "Unit": {
+              "type": "IfcSIUnit",
+              "UnitType": "TIMEUNIT",
+              "Name": "SECOND"
+            },
+            "Exponent": -1
+          }
+        ],
+        "UnitType": "LINEARVELOCITYUNIT"
+      },
+      {
+        "type": "IfcSIUnit",
+        "UnitType": "PRESSUREUNIT",
+        "Name": "PASCAL"
+      },
+      {
+        "type": "IfcDerivedUnit",
+        "Elements": [
+          {
+            "type": "IfcDerivedUnitElement",
+            "Unit": {
+              "type": "IfcSIUnit",
+              "UnitType": "LENGTHUNIT",
+              "Name": "METRE"
+            },
+            "Exponent": -2
+          },
+          {
+            "type": "IfcDerivedUnitElement",
+            "Unit": {
+              "type": "IfcSIUnit",
+              "UnitType": "MASSUNIT",
+              "Prefix": "KILO",
+              "Name": "GRAM"
+            },
+            "Exponent": 1
+          },
+          {
+            "type": "IfcDerivedUnitElement",
+            "Unit": {
+              "type": "IfcSIUnit",
+              "UnitType": "TIMEUNIT",
+              "Name": "SECOND"
+            },
+            "Exponent": -2
+          }
+        ],
+        "UnitType": "USERDEFINED",
+        "UserDefinedType": "Friction Loss"
+      }
+    ]
+  }
+}

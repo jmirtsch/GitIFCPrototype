@@ -1,0 +1,20 @@
+{
+  "type": "IfcSite",
+  "GlobalId": "045leWpMj4oQIEZ829grmh",
+  "OwnerHistory": {
+    "href": "1hFTfpXTj8mwsFFnm_D8xA"
+  },
+  "Name": "Default",
+  "Placement": {
+    "type": "IfcLocalPlacement",
+    "id": "3ur4DqY7DA68Pjwn4Jw$YE",
+    "RelativePlacement": {
+      "type": "IfcAxis2Placement3D",
+      "Location": {
+        "type": "IfcCartesianPoint",
+        "Coordinates": "0 0 0"
+      }
+    }
+  },
+  "CompositionType": "ELEMENT"
+}
